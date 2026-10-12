@@ -1,0 +1,12 @@
+POST SPIN — GITHUB FILES
+
+1. Unzip this kit on your laptop.
+2. Upload the CONTENTS of this folder to the root of tshoaele/post-spin, beside index.html. Replace index.html with the supplied version to connect the manifest and offline cache. Do not upload the ZIP itself or a surrounding folder.
+3. The active manifest is manifest.json. manifest.webmanifest is an identical alternative; post-spin.manifest is the requested .manifest copy. Only one needs to be linked, and this index.html already links manifest.json. The .webmanifest extension is the standard alternative. Do not link all three.
+4. No GitHub change or hosting deployment was performed by creating this kit. Enabling GitHub Pages later makes the app public; you previously requested no shipping.
+5. The PWA needs HTTPS hosting to install and cache offline. A repository page is not the app URL. If you later enable Pages from main/root and use the default project URL, it should be https://tshoaele.github.io/post-spin/ (not verified live).
+
+The icons are the green/cream three-reel design used for Post Spin. Icons, manifest and cache paths are relative, so /post-spin/ project hosting is supported. The existing local file continues working independently; export/import a backup to move its history to the hosted app.
+
+No Android assetlinks.json is supplied: a valid file needs the final Android package and signing-certificate fingerprint, which are not available yet. These PWA files are not an APK or AAB.
+Privacy policy is a draft requiring a real contact before store publication. No live AI connection is included.
